@@ -1,24 +1,30 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     /* font-variant: small-caps; */
-    font-style: italic;
-} 
+    /* font-style: italic; */
+    background-image: url(White-Honeycomb-Backgrounds.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
-.nav{
+.navbar{
     display: flex;
-    gap: 25px;
-    padding: 20px 50px;
+    align-items: center;
+    background-color: #044662;
+    padding: 15px 50px;
+    justify-content: space-between;
+    color: white;
 }
 
 h1{
-    color: rgb(4, 98, 53);
+    color: #044662;
     text-align: center;
     /* text-transform: lowercase; */
     /* text-decoration: overline; */
@@ -29,40 +35,42 @@ p{
     /* letter-spacing: normal; */
     word-spacing: normal;
     line-height: 1.6em;
-    color: rgb(4, 98, 53);
+    color: #044662;
     font-weight: bold;
-    background-color: rgba(19, 169, 84, 0.296); padding: 20px; border-radius: 10px;
+    background-color: #1372a94b;
+    padding: 20px;
+    border-radius: 10px;
     /* text-indent: 15px; */
     /* text-align: center; */
     /* text-decoration:line-through; */
 }
-
-a{
+ul li a{
     text-decoration: none;
-    font-weight: 700;
-    color: rgb(4, 98, 53);
+    color: white;
+}
+ul li a:hover{
+    color: rgba(255, 255, 255, 0.338);
 }
 
-a:hover{
-    color: rgb(17, 215, 119);
-    
+.navbar ul li:first-child{
+    text-decoration: underline;
 }
-ul, ol{list-style: none;}
-
-
-/* BAGIAN FILE INDEX */
-.bg-index{
-    background-image: url(images.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+.navbar ul li:first-child:hover{
+    color: rgba(255, 255, 255, 0.338);
 }
 
-/* BAGIAN FILE PROFIL */
-/* .bg-profil{
-    background-color: rgb(177, 229, 249);
-    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+.navbar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 30%;
+    padding: 3px;
+    background-color: white;
 }
 
-.container-profil{
-    background-color: white; width: 30%; padding: 20px 20px 20px 0; border-radius: 20px; margin:auto; justify-items: center; margin-top: 10%;
-} */
+p{
+    /* width: 50%; */
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+ul li{list-style: none;}
