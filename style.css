@@ -1,8 +1,54 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    /* font-variant: small-caps; */
+    font-style: italic;
+    margin: 20px;
 } 
-h1{color: blueviolet;}
+
+.bg-index{
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bg-profil{
+    /* background-color: rgb(177, 229, 249); */
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
+
+.nav{
+    display: flex;
+    gap: 25px;
+}
+
+h1{
+    color: rgb(4, 98, 53);
+    text-align: center;
+    /* text-transform: lowercase; */
+    /* text-decoration: overline; */
+    text-decoration: underline;
+}
+
 p{
+    /* letter-spacing: normal; */
+    word-spacing: normal;
     line-height: 1.6em;
-    color: rgb(14, 14, 13);
+    color: rgb(4, 98, 53);
+    font-weight: bold;
+    background-color: rgba(19, 169, 84, 0.296); padding: 20px; border-radius: 10px;
+    /* text-indent: 15px; */
+    /* text-align: center; */
+    /* text-decoration:line-through; */
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(4, 98, 53);
+}
+
+a:hover{
+    color: rgb(17, 215, 119);
+    
 }
